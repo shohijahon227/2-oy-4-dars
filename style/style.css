@@ -1,0 +1,676 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFFFFF;
+    font-family: 'Host Grotesk';
+}
+
+.shop {
+    max-width: 1440px;
+    width: 100%;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+    padding: 0px 120px 0px 120px;
+    position: relative;
+}
+
+.shop .title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.title .s-title {
+    display: flex;
+    align-items: center;
+}
+
+
+.title .s-title .s-f {
+    font-family: 'Host Grotesk', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #666666;
+    margin-right: 10px;
+}
+
+.title .s-title .top-c {
+    font-family: 'Host Grotesk', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #008ECC;
+}
+
+.view {
+    position: relative;
+}
+
+.title .view .view-all {
+    display: inline-block;
+    font-family: 'Host Grotesk', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #222222;
+    text-decoration: none;
+}
+
+.view img {
+position: absolute;
+right: -20px;
+top: -1px;
+}
+
+.shop .horizont {
+    width: 281px;
+    height: 3px;
+    background-color: #008ECC;
+    border: none;
+    z-index: 2;
+}
+
+.wares {
+    margin-top: 40px;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    margin-bottom: 120px;
+}
+
+.wares .phones {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+    width: 132px;
+    background-color: #FFFFFF;
+}
+
+.phones .image {
+    width: 132px;
+    height: 132px;
+    border-radius: 61px ;
+    background-color: #F5F5F5;
+    text-align: center;
+    padding: 17px 40px 17px 40px;
+}
+
+.image img {
+    width: 52px;
+    height: 98px;
+}
+
+.phones .mobile {
+    margin-top: 20px;
+    font-family: 'Host Grotesk', sans-serif;
+font-size: 16px;
+font-weight: 500;
+color: #000000;
+}
+
+.wares .cosmetics {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+    width: 132px;
+    background-color: #FFFFFF;
+}
+
+.cosmetics .image-2 {
+    width: 132px;
+    height: 132px;
+    border-radius: 61px ;
+    background-color: #F5F5F5;
+    text-align: center;
+    padding: 9px 36px 9px 36px;
+}
+
+.cosmetics .cream {
+    margin-top: 20px;
+    font-family: 'Host Grotesk', sans-serif;
+font-size: 16px;
+font-weight: 500;
+color: #000000;
+}
+
+.wares .electronics {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+    width: 132px;
+    background-color: #FFFFFF;
+}
+
+.electronics .image-3 {
+ width: 135px;
+height: 135px;
+}
+
+.electronics .machine {
+    margin-top: 20px;
+    font-family: 'Host Grotesk', sans-serif;
+font-size: 16px;
+font-weight: 500;
+color: #000000;
+}
+
+.wares .furniture {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+    width: 132px;
+    background-color: #FFFFFF;
+}
+
+.furniture .image-4 {
+    width: 135px;
+    height: 135px;
+}
+
+.furniture .couch {
+    margin-top: 20px;
+    font-family: 'Host Grotesk', sans-serif;
+font-size: 16px;
+font-weight: 500;
+color: #000000;
+}
+
+.wares .watches {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+    width: 132px;
+    background-color: #FFFFFF;
+}
+
+.watches .image-5 {
+    width: 132px;
+    height: 132px;
+    border-radius: 61px ;
+    background-color: #F5F5F5;
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+}
+
+.watches .watch {
+    margin-top: 20px;
+    font-family: 'Host Grotesk', sans-serif;
+font-size: 16px;
+font-weight: 500;
+color: #000000;
+}
+
+.wares .decor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+    width: 132px;
+    background-color: #FFFFFF;
+}
+
+.decor .image-6 {
+    width: 132px;
+    height: 132px;
+}
+
+.decor .flower {
+    font-family: 'Host Grotesk', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000; 
+}
+
+.wares .accesories {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+    width: 132px;
+    background-color: #FFFFFF;
+}
+
+.accesories .image-7 {
+    width: 132px;
+    height: 132px;
+}
+
+.accesories .jewel {
+    font-family: 'Host Grotesk', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000; 
+}
+
+.iphone {
+    background-color: #313131;
+    width: 389px; 
+    height: 207px;
+    padding: 12px 44px 10px 20px;
+    border: none;
+    border-radius: 16px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.iphone-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.iphone .iphone-info {
+align-items: center;
+text-align: left;
+}
+
+.iphone-info .title-brand {
+    width: 99px;
+    padding: 9px 20px 9px 20px;
+    background-color: #494949;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    margin-top: 6px;
+}
+
+.title-brand p {
+    font-family: 'Host Grotesk', sans-serif;
+font-size: 14px;
+font-weight: 400;
+color: #FFFFFF;
+}
+
+.smartphones {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.iphone-info .apple-logo {
+    background-color: #FFFFFF;
+    width: 62px;
+    height: 62px;
+    padding: 7.75px 12.4px 7.75px 12.4px;
+    border: none;
+    border-radius: 16px;
+    margin-bottom: 20px;
+}
+
+.iphone-info .discount {
+    font-family: 'Host Grotesk', sans-serif;
+font-size: 24px;
+font-weight: 600;
+color: #FFFFFF;
+}
+
+.iphone .iphone-photo {
+    width: 104px;
+    height: 185px;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 59px;
+}
+
+.off {
+    position: absolute;
+    left: 150px;
+}
+
+.realme {
+    background-color: #FFF3CC;
+    width: 389px;
+    height: 207px;
+    padding: 12px 17px 10px 20px;
+    margin-top: 40px;
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+.realme-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.realme .realme-info {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.realme-info .realme-name {
+    background-color: #F6DE8D;
+    width: 102px;
+    padding: 9px 20px 9px 20px;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.realme-name p {
+    font-family: 'Host Grotesk', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #222222;
+}
+
+.realme-info .company-name {
+    background-color: #FFC915;
+    width: 114px;
+    padding: 5.75px 11.51px 7.8px 11.76px;
+}
+
+.realme-info .offer {
+    margin-top: 20px;
+    width: 162px;
+}
+
+.offer p {
+    font-family: 'Host Grotesk', sans-serif;
+font-size: 24px;
+font-weight: 600;
+color: #222222;
+}
+
+.second-off {
+    position: absolute;
+    left: 150px;
+}
+
+.realme-photo img {
+    width: 158px;
+    height: 185px;
+    margin-top: 40px;
+}
+
+.xiaomi {
+    background-color: #FFECDF;
+    width:389px ;
+    height: 207px;
+    padding: 13px 20px 7px 20px;
+    border: none;
+    border-radius: 16px;
+    position: relative;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.xiaomi-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.xiaomi .xiaomi-info {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.xiaomi-info .xiaomi-name {
+    background-color: #FFD1B0;
+    width: 96px;
+    padding: 9px 20px 9px 20px;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.xiaomi-name p {
+    font-family: 'Host Grotesk', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #222222;
+}
+
+.xiaomi-logo {
+    width: 67px;
+    height: 67px;
+    margin-bottom: 20px;
+}
+
+.second-offer {
+    width: 162px;
+}
+
+.second-offer p {
+    font-family: 'Host Grotesk', sans-serif;
+font-size: 24px;
+font-weight: 600;
+color: #222222;
+}
+
+.second-offer .mark {
+    position: absolute;
+    left: 150px;
+}
+
+.xiaomi-photo img {
+    width: 152px;
+    height: 183px;
+    margin-top: 40px;
+}
+
+ .slide {
+    margin-top: 30px;
+
+    position: absolute;
+    left: 700px;
+} 
+
+.food {
+    margin-top: 120px;
+    margin-bottom: 40px;
+}
+
+.foods {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 120px;
+}
+
+.foods .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+    width: 251px;
+    height: 187px;
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+.card .food-photo {
+    width: 187px;
+    height: 187px;
+    background-color: #F5F5F5;
+    padding: 33px 1px 33px 1px;
+    border-radius: 16px;
+    margin-bottom: 20px;
+}
+
+.food-photo img {
+    width: 183px;
+    height: 122px;
+}
+
+.food-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.food-info .food-category {
+    font-family: 'Host Grotesk', sans-serif;
+font-size: 16px;
+font-weight: 600;
+color: #666666;
+margin-bottom: 4px;
+}
+
+.food-info .food-discount {
+    font-family: 'Host Grotesk', sans-serif;
+font-size: 20px;
+font-weight: 700;
+color: #222222;
+}
+
+.footer {
+    background-color: #008ECC;
+    height: 592px;
+    padding: 80px 329px 30px 120px;
+    gap: 90px;
+}
+
+.container-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer .contact {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.contact .logo-w {
+    width: 217px;
+    height: 44px;
+    margin-bottom: 34px;
+}
+
+.contact .topic {
+    font-family: 'Host Grotesk', sans-serif;
+font-size: 20px;
+font-weight: 700;
+color: #FFFFFF;
+margin-bottom: 20px;
+}
+
+.whatsapp {
+    margin-bottom: 20px;
+}
+
+.whatsapp .whatsapp-logo img {
+    width: 24px;
+    height: 24px;
+}
+
+.whatsapp .whatsapp-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.whatsapp-us .app-name {
+    font-family: 'Host Grotesk', sans-serif;
+font-size: 16px;
+font-weight: 500;
+color: #FFFFFF;
+}
+
+.whatsapp-us .number-w {
+    font-family: 'Host Grotesk', sans-serif;
+font-size: 16px;
+font-weight: 600;
+color: #FFFFFF;
+}
+
+.call .call-logo img {
+    width: 24px;
+    height: 24px;
+}
+
+.call .call-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.call .app-name-call {
+    font-family: 'Host Grotesk', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+.call .number-w-call {
+    font-family: 'Host Grotesk', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.download p {
+    font-family: 'Host Grotesk', sans-serif;
+font-size: 20px;
+font-weight: 700;
+color: #FFFFFF;
+margin-top: 30px;
+margin-bottom: 20px;
+}
+
+.apps {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.apps .appstore {
+    margin-right: 20px;
+}
+
+.mp-categories .mpcategories {
+    font-family: 'Host Grotesk', sans-serif;
+font-size: 20px;
+font-weight: 600;
+color: #FFFFFF;
+margin-bottom: 16px;
+}
+
+.horizont-second {
+    border: none;
+    background-color: #FFFFFF;
+    width: 219px;
+    height: 3px;
+    margin-bottom: 20px;
+}
+
+.list .lists {
+    font-family: 'Host Grotesk', sans-serif;
+font-size: 16px;
+font-weight: 500;
+color: #FFFFFF;
+margin-bottom: 20px;
+}
+
+.service {
+    font-family: 'Host Grotesk', sans-serif;
+font-size: 20px;
+font-weight: 600;
+line-height: 20px;
+color: #FFFFFF;
+margin-bottom: 16px;
+}
+
+.footer-bottom .footer-b {
+    font-family: 'Host Grotesk', sans-serif;
+font-size: 20px;
+font-weight: 400;
+color: #FFFFFF;
+}
